@@ -1,8 +1,8 @@
 # Portafolio Personal - Abel Jimenez
 
-**Estudiante:** Abel Jimenez
-**Materia:** Programación de Sistemas Web
-**Actividad:** Actividad Integradora 1
+- **Estudiante:** Abel Jimenez
+- **Materia:** Programación de Sistemas Web
+- **Actividad:** Actividad Integradora 1
 
 ## Descripción
 Sitio web que funciona como mi portafolio personal. Presenta quién soy, mis habilidades, algunos de los proyectos que he realizado y un formulario de contacto.
