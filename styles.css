@@ -1,10 +1,10 @@
 /* Variables */
 :root {
-    --color-background: #0b1b33;
-    --color-surface: #12284a;
-    --color-text: #e8eef8;
-    --color-primary: #3b82f6;
-    --color-accent: #f5a623;
+    --color-background: #163666;
+    --color-surface: #7994bb;
+    --color-text: #d0d0d0;
+    --color-primary: #8f81aa;
+    --color-accent: #7d6153;
     --font: 'Segoe UI', Arial, sans-serif;
     --radius: 12px;
 }
@@ -159,4 +159,65 @@ section h2 {
 .proyecto:hover {
     transform: translateY(-6px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+
+/* Contacto */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 600px;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 0.75rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    font-family: inherit;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: none;
+    border-color: var(--color-accent);
+}
+
+.formulario button {
+    padding: 0.85rem;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.formulario button:hover {
+    background-color: var(--color-accent);
+    color: var(--color-background);
+    transform: translateY(-2px);
+}
+
+/* Pie de página */
+.pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: var(--color-surface);
+}
+
+.pie a {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.pie a:hover {
+    text-decoration: underline;
 }
