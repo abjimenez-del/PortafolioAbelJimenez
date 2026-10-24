@@ -1,10 +1,10 @@
 /* Variables */
 :root {
-    --color-background: #163666;
-    --color-surface: #7994bb;
-    --color-text: #d0d0d0;
-    --color-primary: #8f81aa;
-    --color-accent: #7d6153;
+    --color-background: #1a1a1a;
+    --color-surface: #2b2b2b;
+    --color-text: #f2f2f2;
+    --color-primary: #d62839;
+    --color-accent: #ff4d5e;
     --font: 'Segoe UI', Arial, sans-serif;
     --radius: 12px;
 }
@@ -220,4 +220,28 @@ section h2 {
 
 .pie a:hover {
     text-decoration: underline;
+}
+
+
+.menu a {
+    white-space: nowrap;
+}
+
+@media (max-width: 800px) {
+    .encabezado {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .menu ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .principal {
+        flex-direction: column;
+        text-align: center;
+    }
 }
